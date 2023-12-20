@@ -38,4 +38,8 @@ public class Inventory {
     public void setQuantity(Integer quantity) {
         this.quantity = quantity;
     }
+
+    public void debitQuantity(Integer quantity) {
+        this.quantity -= quantity;
+    }
 }
